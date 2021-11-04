@@ -1,0 +1,32 @@
+http://localhost:4000/
+
+###
+
+http://localhost:4000/blocks
+
+###
+http://localhost:4000/status
+
+###
+POST http://localhost:4000/blocks
+
+{
+  "data":"dafdsafd"
+}
+
+###
+http://localhost:4000/block/462cbc7b0f32eede59c014382caf8e05286c3303ad0d7fd95adb4a81240b904c
+
+###
+POST http://localhost:4000/transactions
+
+{
+  "to":"fds",
+  "amount":10
+}
+
+###
+http://localhost:4000/mempool
+
+###
+http://localhost:4000/balance/park
